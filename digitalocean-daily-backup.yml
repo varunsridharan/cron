@@ -8,8 +8,6 @@ names = [
 
 [droplets]
 names = [          # Array of droplets you want to snapshot
-  'heleshot.auracle.in',
-  'lemonfizz.auracle.in',
   'git.svarun.dev',
   'agni.sva.run',
 ]
