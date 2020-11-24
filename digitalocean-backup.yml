@@ -3,4 +3,15 @@ retention = 1
 [volumes]
 names = [
   'gitea',
+  'website',
+]
+
+[droplets]
+names = [          # Array of droplets you want to snapshot
+  'do-lon01.joeshop.co.uk',
+  'cupar.joe-cool.uk',
+  'heleshot.auracle.in',
+  'lemonfizz.auracle.in',
+  'git.svarun.dev',
+  'agni.sva.run',
 ]
