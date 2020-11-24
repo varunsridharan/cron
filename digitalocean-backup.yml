@@ -1,0 +1,6 @@
+retention = 1
+
+[volumes]
+names = [
+  'sgp1-vol-mainnet-grafana-db',
+]
