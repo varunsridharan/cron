@@ -14,5 +14,5 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: pip3 install --user goutte
-    - run: /home/runner/.local/bin/goutte digitalocean-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only snapshot
-    - run: /home/runner/.local/bin/goutte digitalocean-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only prune
+    - run: /home/runner/.local/bin/goutte digitalocean-daily-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only snapshot
+    - run: /home/runner/.local/bin/goutte digitalocean-daily-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only prune
