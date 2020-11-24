@@ -1,4 +1,4 @@
-retention = 1
+retention = 2
 
 [volumes]
 names = [
@@ -8,8 +8,6 @@ names = [
 
 [droplets]
 names = [          # Array of droplets you want to snapshot
-  'do-lon01.joeshop.co.uk',
-  'cupar.joe-cool.uk',
   'heleshot.auracle.in',
   'lemonfizz.auracle.in',
   'git.svarun.dev',
