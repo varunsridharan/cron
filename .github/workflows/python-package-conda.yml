@@ -1,0 +1,16 @@
+name: Daily Cron
+
+on:
+  workflow_dispatch:
+
+jobs:
+  daily_cron:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: pip3 install --user goutte
