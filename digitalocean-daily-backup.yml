@@ -9,5 +9,5 @@ names = [
 [droplets]
 names = [          # Array of droplets you want to snapshot
   'git.svarun.dev',
-  'agni.sva.run',
+  'my.agni.sva.run',
 ]
