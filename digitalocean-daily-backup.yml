@@ -3,7 +3,6 @@ retention = 2
 [volumes]
 names = [
   'gitea',
-  'website',
 ]
 
 [droplets]
