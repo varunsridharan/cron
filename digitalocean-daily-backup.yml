@@ -5,8 +5,8 @@ names = [
   'gitea',
 ]
 
-[droplets]
-names = [          # Array of droplets you want to snapshot
-  'git.svarun.dev',
-  'my.agni.sva.run',
-]
+#[droplets]
+#names = [          # Array of droplets you want to snapshot
+#  'git.svarun.dev',
+#  'my.agni.sva.run',
+#]
