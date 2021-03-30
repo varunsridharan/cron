@@ -22,6 +22,6 @@ jobs:
           gitea_username: ${{ secrets.GITEA_USERNAME }}
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
           gistsSource: true
-          localCache: true
+          localCache: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
