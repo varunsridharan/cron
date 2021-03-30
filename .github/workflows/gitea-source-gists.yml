@@ -1,4 +1,4 @@
-name: " ⏳ - Backup Source Gists"
+name: " ⏳ - Gitea Backup Source Gists"
 
 on:
   workflow_dispatch:

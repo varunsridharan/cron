@@ -1,4 +1,4 @@
-name: " ⏳ - Backup Source Repository"
+name: " ⏳ - Gitea Backup Source Repository"
 
 on:
   workflow_dispatch:

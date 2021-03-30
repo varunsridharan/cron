@@ -1,3 +1,5 @@
+![https://cdn.svarun.dev/gh/varunsridharan/cron/banner.png](https://cdn.svarun.dev/gh/varunsridharan/cron/banner.png)
+
 # CRON
 This repository contains Github action's workflow which runs via cron
 
