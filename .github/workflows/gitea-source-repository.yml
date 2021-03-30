@@ -1,0 +1,27 @@
+name: " ⏳ - Backup Source Repository"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * *'
+
+jobs:
+  mirror:
+    name: "⏳  Mirror"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - uses: varunsridharan/action-gitea-mirror@main
+        name: "RUN"
+        with:
+          gh_username: ${{ secrets.GH_USERNAME }}
+          gh_accesstoken: ${{ secrets.GH_TOKEN }}
+          gitea_host: ${{ secrets.GITEA_HOST }}
+          gitea_username: ${{ secrets.GITEA_USERNAME }}
+          gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
+          repositorySource: true
+          localCache: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

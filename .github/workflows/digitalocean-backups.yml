@@ -1,4 +1,4 @@
-name: Daily Cron
+name: "💧 - Digitalocean Backups"
 
 on:
   schedule:
