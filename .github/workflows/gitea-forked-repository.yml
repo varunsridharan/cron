@@ -25,3 +25,5 @@ jobs:
           localCache: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: gautamkrishnar/keepalive-workflow@master
