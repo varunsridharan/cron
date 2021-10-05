@@ -19,3 +19,4 @@ jobs:
       run: pip3 install --user goutte
     - run: /home/runner/.local/bin/goutte digitalocean-daily-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only snapshot
     - run: /home/runner/.local/bin/goutte digitalocean-daily-backup.yml ${{ secrets.DIGITALOCEAN_TOKEN }} --debug --only prune
+    - uses: gautamkrishnar/keepalive-workflow@master
